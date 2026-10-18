@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Siyue Yao</title>
+    <meta name="description" content="Siyue Yao — Ph.D. student in Mechanical Engineering at Shanghai Jiao Tong University and visiting student at Stanford. Compliant mechanisms, compliant sensing and bioinspired whiskers." />
+    <meta name="theme-color" content="#131312" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23131312'/%3E%3Ctext x='32' y='44' text-anchor='middle' fill='%23ebe8e1' font-family='Georgia' font-size='36'%3ES%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Loaded without blocking the page, so it still renders quickly where Google Fonts is slow. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" /></noscript>
+    <link rel="stylesheet" href="assets/site.css" />
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="assets/site.js" defer></script>
+    <script src="assets/player.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#research">Skip to research</a>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#top">Siyue Yao</a>
+        <nav class="topnav" aria-label="Sections">
+          <a href="#highlights">Highlights</a>
+          <a href="#research">Research</a>
+          <a href="#education" class="hide-narrow">Education</a>
+          <a href="photos.html">Photos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap" id="top">
+      <section class="hero" aria-label="About">
+        <figure class="hero-photo">
+          <img src="assets/hero-siyue.jpg" alt="Siyue Yao at Stanford" width="1200" height="1554" fetchpriority="high" />
+        </figure>
+        <div class="hero-text">
+          <h1>Siyue Yao</h1>
+          <p>
+            I am currently a Ph.D. student in Mechanical Engineering at
+            <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a> (SJTU), advised by
+            <a href="https://me.sjtu.edu.cn/en/FullTimeTeacher/chengenliang.html">Prof. Genliang Chen</a>.
+            I am also a visiting student at <a href="https://www.stanford.edu/">Stanford University</a>,
+            working with <a href="https://profiles.stanford.edu/mark-cutkosky">Prof. Mark Cutkosky</a> in the
+            <a href="https://bdml.stanford.edu/">Biomimetics and Dexterous Manipulation Lab</a>.
+            I received my B.S. in Mechanical Engineering from SJTU in 2022.
+          </p>
+          <p>
+            My research focuses on the <strong>design, analysis, sensing, and control of compliant
+            mechanisms</strong>, with a particular focus on grasping and manipulation.
+          </p>
+          <p>
+            Nature offers a rich source of inspiration, as biological systems leverage compliance to interact with their environments in remarkably adaptable ways. I am fascinated by how such capabilities emerge in nature and how biological principles can inspire new approaches to design.
+          </p>
+          <p>
+            Outside of research, I enjoy playing football and the violin, and I have a particular
+            passion for classical music.
+          </p>
+          <p class="contact-line">Email: <a href="mailto:sy.yao@sjtu.edu.cn">sy.yao@sjtu.edu.cn</a></p>
+          <p class="profile-links">
+            <a href="assets/documents/CV_Siyue_Yao.pdf">CV</a>
+            <a href="https://scholar.google.com/citations?user=UjvLdy8AAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+            <a href="https://orcid.org/0000-0003-2562-3055">ORCID</a>
+            <a href="photos.html">Photos</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="divider" aria-hidden="true"><span></span></div>
+
+      <section id="highlights" aria-labelledby="highlights-title">
+        <h2 id="highlights-title">Highlights</h2>
+        <div class="cards">
+          <a class="card" href="https://compliant-wrist.github.io/">
+            <span class="card-media"><video class="preview" data-src="assets/research/lego-wrist.mp4" poster="assets/research/lego-wrist.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">Lego-like Compliant Wrist</span>
+          </a>
+          <a class="card" href="https://variable-stiffness-gripper.github.io/">
+            <span class="card-media"><video class="preview" data-src="assets/research/variable-stiffness-gripper.mp4" poster="assets/research/variable-stiffness-gripper.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">Variable-Stiffness Gripper</span>
+          </a>
+          <a class="card" href="https://compliant-fingertip.github.io/">
+            <span class="card-media"><video class="preview" data-src="assets/research/compliant-fingertip.mp4" poster="assets/research/compliant-fingertip.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">Sensorized Compliant Fingertip</span>
+          </a>
+          <a class="card" href="https://elastic-beam-sensing.github.io/">
+            <span class="card-media"><video class="preview" data-src="assets/research/contact-sensing-elastic-beams.mp4" poster="assets/research/contact-sensing-elastic-beams.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">Elastic-Beam Contact Sensing</span>
+          </a>
+          <a class="card" href="https://ebug-locomotion.github.io/">
+            <span class="card-media"><video class="preview" data-src="assets/research/elastic-beam-multimodal-locomotion.mp4" poster="assets/research/elastic-beam-multimodal-locomotion.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">EBUG Multi-modal Locomotion</span>
+          </a>
+          <a class="card" href="https://bdml.stanford.edu/pages/FBG_Whisker_share/">
+            <span class="card-media"><video class="preview" data-src="assets/research/fbg-whiskers.mp4" poster="assets/research/fbg-whiskers.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></span>
+            <span class="card-caption">FBG Whiskers Track a Source</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="divider" aria-hidden="true"><span></span></div>
+
+      <section id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research</h2>
+
+        <div class="filters" role="group" aria-label="Research topics" data-default="units">
+          <button type="button" data-topic="units" aria-pressed="false">Compliant Units</button>
+          <button type="button" data-topic="effectors" aria-pressed="false">Compliant End-Effectors</button>
+          <button type="button" data-topic="bio" aria-pressed="false">Bio-Inspired Design</button>
+          <button type="button" data-topic="soft" aria-pressed="false">Soft Actuation</button>
+          <button type="button" data-topic="mechanism" aria-pressed="false">Mechanism Analysis</button>
+        </div>
+        <div class="subfilters" role="group" aria-label="Compliant Units" data-parent="units" hidden>
+          <button type="button" data-topic="units/stiffness" data-label="Kinematics &amp; Stiffness" aria-pressed="false">Kinematics &amp; Stiffness</button>
+          <button type="button" data-topic="units/sensing" data-label="Sensing &amp; Force-based Interaction" aria-pressed="false">Sensing &amp; Force-based Interaction</button>
+          <button type="button" data-topic="units/dynamics" data-label="Dynamics" aria-pressed="false">Dynamics</button>
+        </div>
+        <div class="subfilters" role="group" aria-label="Compliant End-Effectors" data-parent="effectors" hidden>
+          <button type="button" data-topic="effectors/gripper" data-label="Gripper" aria-pressed="false">Gripper</button>
+          <button type="button" data-topic="effectors/wrist" data-label="Wrist" aria-pressed="false">Wrist</button>
+          <button type="button" data-topic="effectors/fingertip" data-label="Fingertip" aria-pressed="false">Fingertip</button>
+          <button type="button" data-topic="effectors/leg" data-label="Leg" aria-pressed="false">Leg</button>
+          <button type="button" data-topic="effectors/hand" data-label="Dexterous Hand" data-ongoing="true" aria-pressed="false">Dexterous Hand <span class="ongoing">ongoing</span></button>
+        </div>
+        <div class="subfilters" role="group" aria-label="Bio-Inspired Design" data-parent="bio" hidden>
+          <button type="button" data-topic="bio/whisker" data-label="Whisker" aria-pressed="false">Whisker</button>
+          <button type="button" data-topic="bio/locomotion" data-label="Multi-modal Locomotion" aria-pressed="false">Multi-modal Locomotion</button>
+        </div>
+
+        <div class="overviews" aria-live="polite">
+          <p class="overview" data-topic="mechanism" hidden>How a linkage moves is decided by its geometry. I work on studying the kinematics of rigid mechanisms, such as overconstrained Bricard linkages, presenting analytical kinematic models and looking for their geometric explanations. These approaches reveal motion branches, bifurcations, and specific mechanism designs, such as remote center-of-motion (RCM) mechanisms.</p>
+          <p class="overview" data-topic="units" hidden>Curved elastic units, and the modules built from them, are the building blocks of my work. Their compliance is useful in three ways:<br />
+            (1) design specific stiffness: it determines how the system interacts with the environment.<br />
+            (2) sense the deformation: it indicates the deformation and estimates the forces and contacts.<br />
+            (3) drive in statics/dynamics: it leads to multi-modal motion.</p>
+          <p class="overview" data-topic="units/stiffness" hidden>Modeling the large, nonlinear deformation of elastic beams makes stiffness something to design rather than accept. Beam geometry makes a difference. I work on how to design shape, width, thickness, etc. to achieve desired stiffness characteristics.</p>
+          <p class="overview" data-topic="units/sensing" hidden>When a compliant structure bends, its shape records the interaction. By embedding flexible strain gauges in elastic beams and modeling how deformation propagates along them, contact location and force can be read from the structure itself. This turns compliance into intrinsic sensing for force-aware interactions, including grasping and manipulation.</p>
+          <p class="overview" data-topic="units/dynamics" hidden>An elastic beam's deformation can lead to motion. Actuating it in static and dynamic ways makes a difference in its response. Snap-through buckling of elastic beams occurs within 10 ms, giving a lot to think about and utilize in designing interesting systems.</p>
+          <p class="overview" data-topic="effectors" hidden>Putting compliant units to work, I build end-effectors in which compliance and sensing are part of the structure rather than add-ons: grippers, wrists, fingertips, hands, and legs that absorb impacts, adapt to contact, feel the interaction with the environment, and react to execute.</p>
+          <p class="overview" data-topic="effectors/gripper" hidden>Grippers whose fingers are guided or driven by elastic beams, giving tunable passive compliance, active motion and stiffness control, and built-in force sensing to achieve grasping and manipulation tasks.</p>
+          <p class="overview" data-topic="effectors/wrist" hidden>Compliant wrists whose static and dynamic characteristics can be tuned, aiming at providing safe and stable interaction with the environment, even at high speed.</p>
+          <p class="overview" data-topic="effectors/fingertip" hidden>Compliant fingertips based on elastic units are designed to provide tactile sensing. Unlike visual-tactile methods, this work focuses on providing multiple yet not so many channels of force sensing, aiming at achieving just enough tactile information as a human fingertip does.</p>
+          <p class="overview" data-topic="effectors/leg" hidden>Compliant legs integrating elastic units help in:<br />
+            (1) motion transmission.<br />
+            (2) impact and required torque reduction.<br />
+            (3) force sensing and feedback control.</p>
+          <p class="overview" data-topic="effectors/hand" hidden>Dexterous hands with elastic units provide structural compliance with motion coupling property, especially under loads. With integrated force sensing, they show better performance in daily tasks.</p>
+          <p class="overview" data-topic="bio" hidden>Animals show marvelous performance using compliant bodies, providing a lot of inspiration for designs.<br />
+            – rats sweep their whiskers across surfaces<br />
+            – seals read the wakes of fish and track them<br />
+            – caterpillars crawl, locusts jump and crickets do both<br />
+            My work borrows from nature: designing compliant systems that move, feel, and react.</p>
+          <p class="overview" data-topic="bio/whisker" hidden>Elastic beams act like whiskers to interact with the environment, both in contact and non-contact form. On land, whiskers help touch and feel the wall and locate the wind; underwater, whiskers help feel the wake and track the source.</p>
+          <p class="overview" data-topic="bio/locomotion" hidden>Animals switch between different modes to achieve high-performance locomotion. Utilizing the static and dynamic deformation characteristics of elastic beams, locomotion modes, including crawling and jumping, can be achieved. More modes and more functions are waiting to be devised.</p>
+          <p class="overview" data-topic="soft" hidden>Combining compliance of elastic units with pneumatic actuation leads to remarkable motion performance with lightweight yet high power-density systems.</p>
+        </div>
+
+        <p class="legend"><sup>*</sup> corresponding author. <sup>†</sup> equal contribution.</p>
+
+        <div class="pubs" id="papers">
+          <article class="pub" id="lego-like-compliant-modules" data-topics="units/stiffness effectors/wrist">
+            <a class="thumb" href="https://compliant-wrist.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/lego-wrist.mp4" poster="assets/research/lego-wrist.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://compliant-wrist.github.io/">Lego-Like Stiffness Configuration of Planar Compliant Modules for Task-Specific Flexible Interfaces</a>
+              <p class="authors"><b class="me">Siyue Yao</b>, Xiaochi Xie, Shixuan Zhao, Yutong Li, Hao Li, Mark R. Cutkosky, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="Submitted to the IEEE International Conference on Robotics and Automation (ICRA) 2027"><b>ICRA 2027</b> under review</p>
+              <p class="pub-links">
+                <a href="https://compliant-wrist.github.io/">project</a>
+                <a href="assets/papers/lego-like-compliant-modules.pdf">paper</a>
+                <a href="assets/videos/lego-like-compliant-modules/supplementary-video.mp4" data-video="lego-like-compliant-modules">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="fluorescent-whisker-array" data-topics="bio/whisker">
+            <a class="thumb" href="https://fluorescent-whisker.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/fluorescent-whiskers.mp4" poster="assets/research/fluorescent-whiskers.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://fluorescent-whisker.github.io/">Fluorescence-enhanced Whisker Array with Vision-based Deformation Analysis for Underwater Source Localization</a>
+              <p class="authors">Xiaochi Xie<sup>†</sup>, Hao Li<sup>†</sup>, Shixuan Zhao, <b class="me">Siyue Yao</b><sup>*</sup>, Shuran Song, Mark R. Cutkosky</p>
+              <p class="venue" title="Submitted to the IEEE International Conference on Robotics and Automation (ICRA) 2027"><b>ICRA 2027</b> under review</p>
+              <p class="pub-links">
+                <a href="https://fluorescent-whisker.github.io/">project</a>
+                <a href="assets/papers/fluorescent-whisker-array.pdf">paper</a>
+                <a href="assets/videos/fluorescent-whisker-array/fluorescent-whisker-video.mp4" data-video="fluorescent-whisker-array">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="elastic-beam-multimodal-locomotion" data-topics="bio/locomotion units/dynamics">
+            <a class="thumb" href="https://ebug-locomotion.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/elastic-beam-multimodal-locomotion.mp4" poster="assets/research/elastic-beam-multimodal-locomotion.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://ebug-locomotion.github.io/">EBUG: Elastic-beam Buckling and Undulating Generation for Multi-modal Robot Locomotion in Environmental Exploration</a>
+              <p class="authors"><b class="me">Siyue Yao</b>, Hao Li, Yuliang Lu, Chenhao Wu, Mark R. Cutkosky, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026"><b>IROS</b> 2026</p>
+              <p class="pub-links">
+                <a href="https://ebug-locomotion.github.io/">project</a>
+                <a href="assets/papers/elastic-beam-multimodal-locomotion.pdf">paper</a>
+                <a href="assets/videos/elastic-beam-multimodal-locomotion/ebug-supplementary-video.mp4" data-video="elastic-beam-multimodal-locomotion">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="biomimetic-multimodal-whisker" data-topics="bio/whisker">
+            <a class="thumb" href="https://multimodal-whisker.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/biomimetic-whisker.mp4" poster="assets/research/biomimetic-whisker.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://multimodal-whisker.github.io/">A biomimetic multimodal whisker sensor for both contact and airflow sensing of mobile robots</a>
+              <p class="authors">Junjie Luo, <b class="me">Siyue Yao</b>, Tianyi Yan, Tao Yu, Hao Li, Xuyang Duan, Hao Wang, Mark R. Cutkosky, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="Sensors and Actuators A: Physical"><b>Sensors and Actuators A</b> 2026</p>
+              <p class="pub-links">
+                <a href="https://multimodal-whisker.github.io/">project</a>
+                <a href="assets/papers/biomimetic-multimodal-whisker.pdf">paper</a>
+                <a href="assets/videos/biomimetic-multimodal-whisker/anemotactic-behavior.mp4" data-video="biomimetic-multimodal-whisker">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="fbg-whiskers" data-topics="bio/whisker">
+            <a class="thumb" href="https://bdml.stanford.edu/pages/FBG_Whisker_share/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/fbg-whiskers.mp4" poster="assets/research/fbg-whiskers.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://bdml.stanford.edu/pages/FBG_Whisker_share/">Fiber Bragg Grating Whiskers for Bioinspired Hydrodynamic Perception on Underwater Robots</a>
+              <p class="authors">Hao Li<sup>*</sup>, Tianyu Tu, <b class="me">Siyue Yao</b>, Ziyang Chang, Juhyun Jung, Xiaochi Xie, Long Yin Chung, Tian-Ao Ren, Genliang Chen, Mark R. Cutkosky<sup>*</sup></p>
+              <p class="venue" title="Preprint, under review"><b>arXiv</b> 2026 · under review</p>
+              <p class="pub-links">
+                <a href="https://bdml.stanford.edu/pages/FBG_Whisker_share/">project</a>
+                <a href="assets/papers/fbg-whiskers.pdf">paper</a>
+                <a href="assets/videos/fbg-whiskers/video-01-whisker-geometries.mp4" data-video="fbg-whiskers">video</a>
+                <a href="https://fbg-whisker-cfd.github.io/">simulation</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="variable-stiffness-gripper" data-topics="units/stiffness effectors/gripper">
+            <a class="thumb" href="https://variable-stiffness-gripper.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/variable-stiffness-gripper.mp4" poster="assets/research/variable-stiffness-gripper.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://variable-stiffness-gripper.github.io/">Modeling and Optimization of a Variable Stiffness Compliant Gripper With the Flexible Parallelogram Mechanism</a>
+              <p class="authors"><b class="me">Siyue Yao</b>, Hao Yuan, Chenhao Wu, Yanjun Wang, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="IEEE/ASME Transactions on Mechatronics"><b>T-MECH</b> 2026</p>
+              <p class="pub-links">
+                <a href="https://variable-stiffness-gripper.github.io/">project</a>
+                <a href="assets/papers/variable-stiffness-gripper.pdf">paper</a>
+                <a href="assets/videos/variable-stiffness-gripper/design-and-simulation.mp4" data-video="variable-stiffness-gripper">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="contact-sensing-elastic-beams" data-topics="units/sensing">
+            <a class="thumb" href="https://elastic-beam-sensing.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/contact-sensing-elastic-beams.mp4" poster="assets/research/contact-sensing-elastic-beams.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://elastic-beam-sensing.github.io/">Contact sensing methodology based on propagation of interaction-induced deformation in elastic beams</a>
+              <p class="authors">Genliang Chen<sup>*</sup>, Junjie Luo, <b class="me">Siyue Yao</b>, Hao Yuan, Yanjun Wang, Tao Yu, Hao Wang, Zhongqin Lin</p>
+              <p class="venue" title="The International Journal of Robotics Research"><b>IJRR</b> 2026</p>
+              <p class="pub-links">
+                <a href="https://elastic-beam-sensing.github.io/">project</a>
+                <a href="assets/papers/contact-sensing-elastic-beams.pdf">paper</a>
+                <a href="assets/videos/contact-sensing-elastic-beams/applications-in-mobile-robots.mp4" data-video="contact-sensing-elastic-beams">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="rigid-flexible-hybrid-leg" data-topics="units/sensing effectors/leg">
+            <a class="thumb" href="https://rigid-flexible-leg.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/rigid-flexible-hybrid-leg.mp4" poster="assets/research/rigid-flexible-hybrid-leg.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://rigid-flexible-leg.github.io/">Development and validation of a rigid-flexible hybrid robotic leg with structural compliance and intrinsic contact sensing capability</a>
+              <p class="authors">Shujie Tang, <b class="me">Siyue Yao</b>, Xingyue Zhu, Tao Yu, Hao Wang, Haoyong Yu, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="Mechanism and Machine Theory"><b>MMT</b> 2025</p>
+              <p class="pub-links">
+                <a href="https://rigid-flexible-leg.github.io/">project</a>
+                <a href="assets/papers/rigid-flexible-hybrid-leg.pdf">paper</a>
+                <a href="assets/videos/rigid-flexible-hybrid-leg/leg-supplementary-video.mp4" data-video="rigid-flexible-hybrid-leg">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="force-controlled-end-effector" data-topics="units/sensing effectors/wrist">
+            <a class="thumb" href="https://force-controlled-end-effector.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/force-controlled-end-effector.mp4" poster="assets/research/force-controlled-end-effector.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://force-controlled-end-effector.github.io/">Design of a Novel Force-Controlled End-Effector With Passive Structural Compliance and Intrinsic Contact Sensing</a>
+              <p class="authors">Tianyi Yan, Jianhuan Chen, <b class="me">Siyue Yao</b>, Xuyang Duan, Yanjun Wang, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="IEEE Transactions on Automation Science and Engineering"><b>T-ASE</b> 2025</p>
+              <p class="pub-links">
+                <a href="https://force-controlled-end-effector.github.io/">project</a>
+                <a href="assets/papers/force-controlled-end-effector.pdf">paper</a>
+                <a href="assets/videos/force-controlled-end-effector/end-effector-supplementary-video.mp4" data-video="force-controlled-end-effector">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="compliant-fingertip" data-topics="units/sensing effectors/fingertip">
+            <a class="thumb" href="https://compliant-fingertip.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/compliant-fingertip.mp4" poster="assets/research/compliant-fingertip.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://compliant-fingertip.github.io/">Multi-Dimensional Force and Torque Sensing Along With Pose Estimation Based on a Compliant Fingertip With Sensor-Integrated Flexible Beam Arrays</a>
+              <p class="authors"><b class="me">Siyue Yao</b>, Tianyi Yan, Yanjun Wang, Ting Liu, Wukai Li, Yaobang Zhao, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="ASME IDETC-CIE, Mechanisms and Robotics Conference"><b>IDETC</b> 2025</p>
+              <p class="pub-links">
+                <a href="https://compliant-fingertip.github.io/">project</a>
+                <!-- ASME allows the accepted manuscript 12 months after online publication (2025-10-27):
+                     from 2026-10-27, point this link to assets/papers/compliant-fingertip.pdf -->
+                <a href="https://doi.org/10.1115/DETC2025-160216">paper</a>
+                <a href="assets/videos/compliant-fingertip/fingertip-demonstration.mp4" data-video="compliant-fingertip">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="whisker-like-2d-contact-sensor" data-topics="bio/whisker">
+            <a class="thumb" href="https://whisker-2d-contact.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/whisker-like-2d-contact-sensor.mp4" poster="assets/research/whisker-like-2d-contact-sensor.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://whisker-2d-contact.github.io/">A Whisker-Like 2-D Contact Sensor for Environmental Perception of Mobile Robots</a>
+              <p class="authors">Junjie Luo, <b class="me">Siyue Yao</b>, Tao Yu, Yanjun Wang, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="IEEE Transactions on Industrial Electronics"><b>TIE</b> 2026</p>
+              <p class="pub-links">
+                <a href="https://whisker-2d-contact.github.io/">project</a>
+                <a href="assets/papers/whisker-like-2d-contact-sensor.pdf">paper</a>
+                <a href="assets/videos/whisker-like-2d-contact-sensor/whisker-2d-supplementary-video.mp4" data-video="whisker-like-2d-contact-sensor">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="rigid-elastic-hybrid-gripper" data-topics="effectors/gripper">
+            <a class="thumb" href="https://rigid-elastic-hybrid-gripper.github.io/" tabindex="-1" aria-hidden="true">
+              <img src="assets/research/rigid-elastic-hybrid-gripper.jpg" alt="" loading="lazy" />
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://rigid-elastic-hybrid-gripper.github.io/">Design and kinematic analysis of A rigid-elastic hybrid gripper with the capability of force sensing</a>
+              <p class="authors">Hao Yuan, <b class="me">Siyue Yao</b>, Lingyu Kong, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="Journal of Physics: Conference Series (ICAMEA 2025)"><b>J. Phys.: Conf. Ser.</b> 2025</p>
+              <p class="pub-links">
+                <a href="https://rigid-elastic-hybrid-gripper.github.io/">project</a>
+                <a href="assets/papers/rigid-elastic-hybrid-gripper.pdf">paper</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="pneumatic-hybrid-oscillator" data-topics="soft units/dynamics">
+            <a class="thumb" href="https://pneumatic-oscillator.github.io/" tabindex="-1" aria-hidden="true">
+              <video class="preview" data-src="assets/research/pneumatic-hybrid-oscillator.mp4" poster="assets/research/pneumatic-hybrid-oscillator.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://pneumatic-oscillator.github.io/">A non-electrical pneumatic hybrid oscillator for high-frequency multimodal robotic locomotion</a>
+              <p class="authors">Genliang Chen<sup>†*</sup>, Yongzhou Long<sup>†</sup>, <b class="me">Siyue Yao</b>, Shujie Tang, Junjie Luo, Hao Wang, Zhuang Zhang<sup>*</sup>, Hanqing Jiang<sup>*</sup></p>
+              <p class="venue" title="Nature Communications"><b>Nature Communications</b> 2025</p>
+              <p class="pub-links">
+                <a href="https://pneumatic-oscillator.github.io/">project</a>
+                <a href="assets/papers/pneumatic-hybrid-oscillator.pdf">paper</a>
+                <a href="assets/videos/pneumatic-hybrid-oscillator/movie-01-design.mp4" data-video="pneumatic-hybrid-oscillator">video</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="bricard-bifurcation" data-topics="mechanism">
+            <a class="thumb" href="https://bricard-bifurcation.github.io/" tabindex="-1" aria-hidden="true">
+              <img src="assets/research/bricard-bifurcation.jpg" alt="" loading="lazy" />
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://bricard-bifurcation.github.io/">A Geometric Approach for the Bifurcation Modeling and Analysis of Plane-Symmetric Bricard Mechanisms</a>
+              <p class="authors">Yuliang Lu, <b class="me">Siyue Yao</b>, Yanjun Wang, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="International Conference on Reconfigurable Mechanisms and Robots"><b>ReMAR</b> 2024</p>
+              <p class="pub-links">
+                <a href="https://bricard-bifurcation.github.io/">project</a>
+                <a href="assets/papers/bricard-bifurcation.pdf">paper</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="plane-symmetric-bricard-kinematics" data-topics="mechanism">
+            <a class="thumb" href="https://bricard-kinematics.github.io/" tabindex="-1" aria-hidden="true">
+              <img src="assets/research/plane-symmetric-bricard-kinematics.jpg" alt="" loading="lazy" />
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://bricard-kinematics.github.io/">On the kinematics of general plane-symmetric Bricard mechanisms</a>
+              <p class="authors"><b class="me">Siyue Yao</b>, Yuliang Lu, Xingyue Zhu, Tianyi Yan, Yitan Yang, Hao Wang, Genliang Chen<sup>*</sup></p>
+              <p class="venue" title="Mechanism and Machine Theory"><b>MMT</b> 2023</p>
+              <p class="pub-links">
+                <a href="https://bricard-kinematics.github.io/">project</a>
+                <a href="https://doi.org/10.1016/j.mechmachtheory.2023.105433">paper</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="pub" id="planar-2r1t-rcm-mechanism" data-topics="mechanism">
+            <a class="thumb" href="https://planar-2r1t-rcm-mechanism.github.io/" tabindex="-1" aria-hidden="true">
+              <img src="assets/research/planar-2r1t-rcm-mechanism.jpg" alt="" loading="lazy" />
+            </a>
+            <div class="pub-text">
+              <a class="pub-title" href="https://planar-2r1t-rcm-mechanism.github.io/">Design and Validation of a Novel Planar 2R1T Remote Center-of-Motion Mechanism Composing of Dual-Triangular and Straight-Line Linkages</a>
+              <p class="authors">Genliang Chen<sup>*</sup>, Yuanhao Xun, Yuchen Chai, <b class="me">Siyue Yao</b>, Chao Chen, Hao Wang</p>
+              <p class="venue" title="ASME Journal of Mechanisms and Robotics"><b>JMR</b> 2021</p>
+              <p class="pub-links">
+                <a href="https://planar-2r1t-rcm-mechanism.github.io/">project</a>
+                <a href="assets/papers/planar-2r1t-rcm-mechanism.pdf">paper</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="divider" aria-hidden="true"><span></span></div>
+
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="edu">
+          <div class="edu-row">
+            <div><p class="edu-school">Stanford University</p><p>Visiting Student, Biomimetics and Dexterous Manipulation Lab · Host: Prof. Mark Cutkosky</p></div>
+            <p class="edu-date">2026.05 – 2027.05</p>
+          </div>
+          <div class="edu-row">
+            <div><p class="edu-school">Shanghai Jiao Tong University</p><p>Ph.D. in Mechanical Engineering · Advisor: Prof. Genliang Chen</p></div>
+            <p class="edu-date">2022.09 – present</p>
+          </div>
+          <div class="edu-row">
+            <div><p class="edu-school">Shanghai Jiao Tong University</p><p>B.S. in Mechanical Engineering</p></div>
+            <p class="edu-date">2018.09 – 2022.06</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="wrap"><div class="divider" aria-hidden="true"><span></span></div></div>
+    <footer class="footer">
+      <p>© Siyue Yao</p>
+    </footer>
+    <dialog class="player" aria-labelledby="player-title">
+      <div class="player-box">
+        <div class="player-head">
+          <p class="player-title" id="player-title"></p>
+          <button type="button" class="player-close" aria-label="Close video">×</button>
+        </div>
+        <div class="player-tabs" role="tablist" aria-label="Videos"></div>
+        <div class="player-frame"><video class="player-video" controls playsinline preload="metadata"></video></div>
+        <div class="player-foot">
+          <p class="player-caption"></p>
+          <a class="player-download" href="#" download>Download</a>
+        </div>
+        <p class="player-credit"></p>
+      </div>
+    </dialog>
+    <!-- Videos per paper (files in assets/videos/<paper id>/), read by assets/player.js. -->
+    <script type="application/json" id="video-data">
+{
+ "lego-like-compliant-modules": {
+  "title": "Lego-Like Stiffness Configuration of Planar Compliant Modules for Task-Specific Flexible Interfaces",
+  "credit": "Supplementary video for S. Yao et al., submitted to the 2027 IEEE International Conference on Robotics and Automation (ICRA).",
+  "link": "https://arxiv.org/abs/2610.07319",
+  "videos": [
+   {
+    "title": "Stiffness verification, and compliance demonstrations with a gripper and during high-speed motion (1 m/s)",
+    "src": "assets/videos/lego-like-compliant-modules/supplementary-video.mp4",
+    "poster": "assets/videos/lego-like-compliant-modules/supplementary-video.jpg",
+    "size": "18 MB"
+   }
+  ]
+ },
+ "elastic-beam-multimodal-locomotion": {
+  "title": "EBUG: Elastic-beam Buckling and Undulating Generation for Multi-modal Robot Locomotion in Environmental Exploration",
+  "credit": "© 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses. Supplementary video for S. Yao et al., accepted to the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).",
+  "videos": [
+   {
+    "title": "EBUG: crawling, jumping, terrain adaptation and obstacle crossing",
+    "src": "assets/videos/elastic-beam-multimodal-locomotion/ebug-supplementary-video.mp4",
+    "poster": "assets/videos/elastic-beam-multimodal-locomotion/ebug-supplementary-video.jpg",
+    "size": "9.4 MB"
+   }
+  ]
+ },
+ "compliant-fingertip": {
+  "title": "Multi-Dimensional Force and Torque Sensing Along With Pose Estimation Based on a Compliant Fingertip With Sensor-Integrated Flexible Beam Arrays",
+  "credit": "Video for S. Yao et al., Proceedings of the ASME 2025 IDETC-CIE, DETC2025-160216.",
+  "link": "https://doi.org/10.1115/DETC2025-160216",
+  "videos": [
+   {
+    "title": "Demonstration with the sensorized compliant fingertip on a robot arm (4× speed)",
+    "src": "assets/videos/compliant-fingertip/fingertip-demonstration.mp4",
+    "poster": "assets/videos/compliant-fingertip/fingertip-demonstration.jpg",
+    "size": "9.1 MB"
+   }
+  ]
+ },
+ "contact-sensing-elastic-beams": {
+  "title": "Contact sensing methodology based on propagation of interaction-induced deformation in elastic beams",
+  "credit": "Multimedia extensions for G. Chen et al., The International Journal of Robotics Research, 2026.",
+  "link": "https://doi.org/10.1177/02783649261419836",
+  "videos": [
+   {
+    "title": "Applications in mobile robots: object length estimation, size identification and force-based collaboration",
+    "src": "assets/videos/contact-sensing-elastic-beams/applications-in-mobile-robots.mp4",
+    "poster": "assets/videos/contact-sensing-elastic-beams/applications-in-mobile-robots.jpg",
+    "size": "37 MB"
+   },
+   {
+    "title": "Virtual piano built from an array of sensorized elastic beams",
+    "src": "assets/videos/contact-sensing-elastic-beams/virtual-piano-key-array.mp4",
+    "poster": "assets/videos/contact-sensing-elastic-beams/virtual-piano-key-array.jpg",
+    "size": "14 MB"
+   },
+   {
+    "title": "Virtual piano on a single sensorized elastic beam",
+    "src": "assets/videos/contact-sensing-elastic-beams/virtual-piano-single-beam.mp4",
+    "poster": "assets/videos/contact-sensing-elastic-beams/virtual-piano-single-beam.jpg",
+    "size": "13 MB"
+   }
+  ]
+ },
+ "rigid-flexible-hybrid-leg": {
+  "title": "Development and validation of a rigid-flexible hybrid robotic leg with structural compliance and intrinsic contact sensing capability",
+  "credit": "Supplementary video for S. Tang et al., Mechanism and Machine Theory 218 (2025) 106271.",
+  "link": "https://doi.org/10.1016/j.mechmachtheory.2025.106271",
+  "videos": [
+   {
+    "title": "Contact detection, contact-based jumping phase transition, continuous jumping over obstacles and force control",
+    "src": "assets/videos/rigid-flexible-hybrid-leg/leg-supplementary-video.mp4",
+    "poster": "assets/videos/rigid-flexible-hybrid-leg/leg-supplementary-video.jpg",
+    "size": "15 MB"
+   }
+  ]
+ },
+ "pneumatic-hybrid-oscillator": {
+  "title": "A non-electrical pneumatic hybrid oscillator for high-frequency multimodal robotic locomotion",
+  "credit": "Supplementary Movies 1–10 of G. Chen, Y. Long, S. Yao et al., Nature Communications 16, 1449 (2025). © The Author(s) 2025, licensed under CC BY-NC-ND 4.0. Files repackaged for web streaming; content unchanged.",
+  "link": "https://doi.org/10.1038/s41467-025-56704-1",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "videos": [
+   {
+    "title": "Supplementary Movie 1 · Design of the pneumatic hybrid oscillator (PHO)",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-01-design.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-01-design.jpg",
+    "size": "3.9 MB"
+   },
+   {
+    "title": "Supplementary Movie 2 · Animation demonstration of the PHO",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-02-animation.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-02-animation.jpg",
+    "size": "1.8 MB"
+   },
+   {
+    "title": "Supplementary Movie 3 · Snap-through buckling behavior of the elastic beam",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-03-snap-through.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-03-snap-through.jpg",
+    "size": "1.8 MB"
+   },
+   {
+    "title": "Supplementary Movie 4 · Working principle of the PHO",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-04-working-principle.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-04-working-principle.jpg",
+    "size": "0.8 MB"
+   },
+   {
+    "title": "Supplementary Movie 5 · High-frequency oscillation of the PHO",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-05-high-frequency.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-05-high-frequency.jpg",
+    "size": "9.9 MB"
+   },
+   {
+    "title": "Supplementary Movie 6 · High-speed kangaroo robot",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-06-kangaroo-robot.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-06-kangaroo-robot.jpg",
+    "size": "4.6 MB"
+   },
+   {
+    "title": "Supplementary Movie 7 · Cascaded-loop crawling robot",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-07-crawling-robot.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-07-crawling-robot.jpg",
+    "size": "16 MB"
+   },
+   {
+    "title": "Supplementary Movie 8 · Cascade loop of three PHOs",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-08-three-phos.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-08-three-phos.jpg",
+    "size": "6.0 MB"
+   },
+   {
+    "title": "Supplementary Movie 9 · Phase tunability of the PHO",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-09-phase-tunability.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-09-phase-tunability.jpg",
+    "size": "5.5 MB"
+   },
+   {
+    "title": "Supplementary Movie 10 · Course-tunable untethered swimming robot",
+    "src": "assets/videos/pneumatic-hybrid-oscillator/movie-10-swimming-robot.mp4",
+    "poster": "assets/videos/pneumatic-hybrid-oscillator/movie-10-swimming-robot.jpg",
+    "size": "8.7 MB"
+   }
+  ]
+ },
+ "force-controlled-end-effector": {
+  "title": "Design of a Novel Force-Controlled End-Effector With Passive Structural Compliance and Intrinsic Contact Sensing",
+  "credit": "© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses. Supplementary video for T. Yan et al., IEEE Transactions on Automation Science and Engineering, vol. 22, 2025.",
+  "link": "https://doi.org/10.1109/TASE.2025.3627234",
+  "videos": [
+   {
+    "title": "Constant-force control on flat, curved, sloped and vertical surfaces, and grinding demonstrations",
+    "src": "assets/videos/force-controlled-end-effector/end-effector-supplementary-video.mp4",
+    "poster": "assets/videos/force-controlled-end-effector/end-effector-supplementary-video.jpg",
+    "size": "20 MB"
+   }
+  ]
+ },
+ "biomimetic-multimodal-whisker": {
+  "title": "A biomimetic multimodal whisker sensor for both contact and airflow sensing of mobile robots",
+  "credit": "Supplementary videos for J. Luo et al., Sensors and Actuators A: Physical 411 (2026) 118463.",
+  "link": "https://doi.org/10.1016/j.sna.2026.118463",
+  "videos": [
+   {
+    "title": "Anemotactic behavior: identifying the source direction and moving towards it",
+    "src": "assets/videos/biomimetic-multimodal-whisker/anemotactic-behavior.mp4",
+    "poster": "assets/videos/biomimetic-multimodal-whisker/anemotactic-behavior.jpg",
+    "size": "11 MB"
+   },
+   {
+    "title": "Anemotaxis and obstacle avoidance in an unstructured environment",
+    "src": "assets/videos/biomimetic-multimodal-whisker/anemotaxis-obstacle-avoidance.mp4",
+    "poster": "assets/videos/biomimetic-multimodal-whisker/anemotaxis-obstacle-avoidance.jpg",
+    "size": "9.1 MB"
+   }
+  ]
+ },
+ "whisker-like-2d-contact-sensor": {
+  "title": "A Whisker-Like 2-D Contact Sensor for Environmental Perception of Mobile Robots",
+  "credit": "© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses. Supplementary video for J. Luo et al., IEEE Transactions on Industrial Electronics, vol. 73, no. 2, 2026.",
+  "link": "https://doi.org/10.1109/TIE.2025.3598187",
+  "videos": [
+   {
+    "title": "Obstacle width estimation, contour following and maze reconstruction",
+    "src": "assets/videos/whisker-like-2d-contact-sensor/whisker-2d-supplementary-video.mp4",
+    "poster": "assets/videos/whisker-like-2d-contact-sensor/whisker-2d-supplementary-video.jpg",
+    "size": "8.9 MB"
+   }
+  ]
+ },
+ "variable-stiffness-gripper": {
+  "title": "Modeling and Optimization of a Variable Stiffness Compliant Gripper With the Flexible Parallelogram Mechanism",
+  "credit": "© 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses. Supplementary videos for S. Yao et al., IEEE/ASME Transactions on Mechatronics, 2026.",
+  "link": "https://doi.org/10.1109/TMECH.2026.3697720",
+  "videos": [
+   {
+    "title": "Mechanical design and simulated counterpart of the compliant gripper",
+    "src": "assets/videos/variable-stiffness-gripper/design-and-simulation.mp4",
+    "poster": "assets/videos/variable-stiffness-gripper/design-and-simulation.jpg",
+    "size": "6.9 MB"
+   },
+   {
+    "title": "Motion and grasping capacity of the compliant gripper",
+    "src": "assets/videos/variable-stiffness-gripper/motion-and-grasping.mp4",
+    "poster": "assets/videos/variable-stiffness-gripper/motion-and-grasping.jpg",
+    "size": "15 MB"
+   }
+  ]
+ },
+ "fbg-whiskers": {
+  "title": "Fiber Bragg Grating Whiskers for Bioinspired Hydrodynamic Perception on Underwater Robots",
+  "credit": "Supplementary videos for H. Li et al., preprint under review.",
+  "link": "https://arxiv.org/abs/2608.24724",
+  "videos": [
+   {
+    "title": "Video 1 · Towing whiskers of different geometries",
+    "src": "assets/videos/fbg-whiskers/video-01-whisker-geometries.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-01-whisker-geometries.jpg",
+    "size": "1.5 MB"
+   },
+   {
+    "title": "Video 2 · Towing at different angles of attack",
+    "src": "assets/videos/fbg-whiskers/video-02-angle-of-attack.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-02-angle-of-attack.jpg",
+    "size": "1.5 MB"
+   },
+   {
+    "title": "Video 3 · Loading tests across whiskers with different bridge geometries",
+    "src": "assets/videos/fbg-whiskers/video-03-loading-tests.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-03-loading-tests.jpg",
+    "size": "5.0 MB"
+   },
+   {
+    "title": "Video 4 · Force sensing response",
+    "src": "assets/videos/fbg-whiskers/video-04-force-sensing.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-04-force-sensing.jpg",
+    "size": "4.8 MB"
+   },
+   {
+    "title": "Video 5 · Cyclic loading durability test",
+    "src": "assets/videos/fbg-whiskers/video-05-cyclic-loading.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-05-cyclic-loading.jpg",
+    "size": "3.2 MB"
+   },
+   {
+    "title": "Video 6 · Whisker response to a pitching foil in quiescent water",
+    "src": "assets/videos/fbg-whiskers/video-06-pitching-foil.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-06-pitching-foil.jpg",
+    "size": "5.2 MB"
+   },
+   {
+    "title": "Video 7 · Translating foil trail analogue",
+    "src": "assets/videos/fbg-whiskers/video-07-translating-foil.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-07-translating-foil.jpg",
+    "size": "3.2 MB"
+   },
+   {
+    "title": "Video 8 · Whisker fabrication",
+    "src": "assets/videos/fbg-whiskers/video-08-fabrication.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-08-fabrication.jpg",
+    "size": "13 MB"
+   },
+   {
+    "title": "Video 9 · Whisker-guided branch selection",
+    "src": "assets/videos/fbg-whiskers/video-09-branch-selection.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-09-branch-selection.jpg",
+    "size": "5.3 MB"
+   },
+   {
+    "title": "Video 10 · Coastal field deployment",
+    "src": "assets/videos/fbg-whiskers/video-10-field-deployment.mp4",
+    "poster": "assets/videos/fbg-whiskers/video-10-field-deployment.jpg",
+    "size": "3.4 MB"
+   }
+  ]
+ },
+ "fluorescent-whisker-array": {
+  "title": "Fluorescence-enhanced Whisker Array with Vision-based Deformation Analysis for Underwater Source Localization",
+  "credit": "Supplementary video for X. Xie, H. Li et al., submitted to ICRA 2027.",
+  "link": "https://arxiv.org/abs/2610.07275",
+  "videos": [
+   {
+    "title": "Fluorescence-enhanced whisker array: system overview and underwater source localization",
+    "src": "assets/videos/fluorescent-whisker-array/fluorescent-whisker-video.mp4",
+    "poster": "assets/videos/fluorescent-whisker-array/fluorescent-whisker-video.jpg",
+    "size": "20 MB"
+   }
+  ]
+ }
+}
+    </script>
+  </body>
+</html>
